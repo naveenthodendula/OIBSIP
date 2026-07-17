@@ -1,104 +1,61 @@
-\# Autocomplete and Autocorrect Data Analytics
+# 🔤 Autocomplete and Autocorrect Data Analytics
 
-
-
-\## Objective
-
-
+## 📌 Objective
 
 The objective of this project is to analyze the efficiency and accuracy of autocomplete and autocorrect algorithms using Natural Language Processing (NLP) techniques.
 
 
+## 🛠 Technologies Used
 
-\## Technologies Used
-
-
-
-\- Python
-
-\- Jupyter Notebook
-
-\- Pandas
-
-\- NLTK
-
-\- PySpellChecker
-
-\- Matplotlib
-
-\- Scikit-learn
+- Python
+- Jupyter Notebook
+- Pandas
+- NLTK
+- PySpellChecker
+- Matplotlib
+- Scikit-learn
 
 
+## 📚 Dataset
 
-\## Dataset
-
-
-
-\- Alice's Adventures in Wonderland (Project Gutenberg)
+- Alice's Adventures in Wonderland (Project Gutenberg)
 
 
+## ✨ Features
 
-\## Features
+- NLP preprocessing
+- Tokenization
+- Lowercasing
+- Stopword removal
+- Bigram autocomplete
+- Trigram autocomplete
+- Autocorrect using PySpellChecker
+- Precision & Recall
+- Top 20 Frequent Words Visualization
+- Confusion Matrix
 
 
+## 📊 Results
 
-\- NLP preprocessing
+| Metric | Value |
+|---------|------:|
+| Autocorrect Accuracy | **95%** |
+| Precision | **95%** |
+| Recall | **95%** |
 
-\- Tokenization
 
-\- Lowercasing
+## 📂 Project Structure
 
-\- Punctuation removal
-
-\- Stopword removal
-
-\- Bigram autocomplete
-
-\- Trigram autocomplete
-
-\- Autocorrect using PySpellChecker
-
-\- Accuracy, Precision and Recall
-
-\- Top 20 frequent words visualization
-
-\- Confusion Matrix
+DataAnalytics-L2-AutocompleteAutocorrectAnalytics/
+│
+├── Autocomplete_and_Autocorrect.ipynb
+├── alice.txt
+├── README.md
+├── top20_words.png
+└── confusion_matrix.png
 
 
 
-\## Results
+## 🎯 Conclusion
 
-
-
-\- Autocorrect Accuracy: \*\*95%\*\*
-
-\- Precision and Recall calculated
-
-\- Bigram and Trigram autocomplete models implemented
-
-\- Top 20 frequent words bar chart generated
-
-\- Confusion Matrix generated
-
-
-
-\## Files
-
-
-
-\- `Autocomplete\_and\_Autocorrect.ipynb` – Main Jupyter Notebook
-
-\- `alice.txt` – Dataset
-
-\- `top20\_words.png` – Bar chart of top 20 words
-
-\- `confusion\_matrix.png` – Confusion matrix visualization
-
-
-
-\## Conclusion
-
-
-
-This project successfully demonstrates autocomplete using Bigram and Trigram language models and autocorrect using the PySpellChecker library. The Trigram model provided better context-aware predictions, while the autocorrect model achieved approximately 95% accuracy.
-
+This project successfully demonstrates the implementation of autocomplete using Bigram and Trigram language models and autocorrect using the PySpellChecker library. The Trigram model produced more context-aware predictions, while the spell checker achieved approximately **95% accuracy**.
