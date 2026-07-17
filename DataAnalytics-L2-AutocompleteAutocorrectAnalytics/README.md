@@ -4,6 +4,7 @@
 
 The objective of this project is to analyze the efficiency and accuracy of autocomplete and autocorrect algorithms using Natural Language Processing (NLP) techniques.
 
+---
 
 ## 🛠 Technologies Used
 
@@ -15,11 +16,13 @@ The objective of this project is to analyze the efficiency and accuracy of autoc
 - Matplotlib
 - Scikit-learn
 
+---
 
 ## 📚 Dataset
 
 - Alice's Adventures in Wonderland (Project Gutenberg)
 
+---
 
 ## ✨ Features
 
@@ -34,6 +37,7 @@ The objective of this project is to analyze the efficiency and accuracy of autoc
 - Top 20 Frequent Words Visualization
 - Confusion Matrix
 
+---
 
 ## 📊 Results
 
@@ -43,9 +47,11 @@ The objective of this project is to analyze the efficiency and accuracy of autoc
 | Precision | **95%** |
 | Recall | **95%** |
 
+---
 
 ## 📂 Project Structure
 
+```
 DataAnalytics-L2-AutocompleteAutocorrectAnalytics/
 │
 ├── Autocomplete_and_Autocorrect.ipynb
@@ -53,8 +59,9 @@ DataAnalytics-L2-AutocompleteAutocorrectAnalytics/
 ├── README.md
 ├── top20_words.png
 └── confusion_matrix.png
+```
 
-
+---
 
 ## 🎯 Conclusion
 
