@@ -115,7 +115,7 @@ OIBSIP/
 │
 ├── DataAnalytics-L2-AutocompleteAutocorrectAnalysis/
 │   ├── Autocomplete_Autocorrect.ipynb
-│   ├── dataset/
+│   ├── alice.txt
 │   ├── requirements.txt
 │   └── README.md
 │
