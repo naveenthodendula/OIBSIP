@@ -112,7 +112,7 @@ Google-Play-Store-Analysis/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Google-Play-Store-Analysis.git
+git clone https://github.com/naveenthodendula/Google-Play-Store-Analysis.git
 ```
 
 ### Install Dependencies
