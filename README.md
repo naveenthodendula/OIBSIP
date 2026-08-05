@@ -1,6 +1,6 @@
 # OIBSIP – Oasis Infobyte Data Analytics Internship Projects
 
-Welcome to my **Oasis Infobyte Data Analytics Internship** repository. This repository contains the projects I completed during the internship, demonstrating practical applications of **Data Analytics, Exploratory Data Analysis (EDA), Machine Learning, Natural Language Processing (NLP), Data Visualization, and Sentiment Analysis** using Python.
+Welcome to my **Oasis Infobyte Data Analytics Internship** repository. This repository contains the projects I completed during the internship, demonstrating practical applications of **Data Analytics, Exploratory Data Analysis (EDA), Machine Learning, Natural Language Processing (NLP), Regression Analysis, Predictive Modeling, and Data Visualization** using Python.
 
 ---
 
@@ -24,6 +24,8 @@ This repository showcases my work completed as part of the **Oasis Infobyte Data
 * TextBlob
 * WordCloud
 * Machine Learning
+* Linear Regression
+* Ridge Regression
 * Natural Language Processing (NLP)
 
 ---
@@ -91,12 +93,36 @@ Performed a comprehensive **Exploratory Data Analysis (EDA)** of the Google Play
 
 ---
 
+## 📌 Task 4 – House Price Prediction using Linear Regression
+
+### Description
+
+Developed an end-to-end **Machine Learning regression model** to predict residential house prices using the **Ames Housing Dataset**. The project includes data preprocessing, feature engineering, exploratory data analysis, correlation analysis, model training, evaluation, and comparison with a regularized regression model.
+
+### Highlights
+
+* Data Cleaning & Preprocessing
+* Missing Value Handling
+* One-Hot Encoding
+* Exploratory Data Analysis (EDA)
+* Feature Selection
+* Correlation Heatmap
+* Linear Regression Model
+* Ridge Regression Comparison
+* Model Evaluation (MSE, RMSE, R² Score)
+* Actual vs Predicted Price Visualization
+* Residual Analysis
+* Feature Coefficient Analysis
+
+---
+
 # 🎯 Internship Objectives
 
 * Apply Data Analytics concepts to real-world datasets.
 * Perform comprehensive Exploratory Data Analysis (EDA).
 * Build Machine Learning models for prediction and classification.
 * Explore Natural Language Processing (NLP) techniques.
+* Develop regression models for predictive analytics.
 * Create meaningful and interactive data visualizations.
 * Improve practical Python programming and analytical skills.
 
@@ -127,6 +153,13 @@ OIBSIP/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── DataAnalytics-L2-House Price Prediction/
+│   ├── House_Price_Prediction_Linear_Regression.ipynb
+│   ├── dataset/
+│   │   └── train.csv
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -140,13 +173,13 @@ OIBSIP/
 git clone https://github.com/naveenthodendula/OIBSIP.git
 ```
 
-## 2. Navigate to the desired project folder
+## 2. Navigate to the Repository
 
 ```bash
 cd OIBSIP
 ```
 
-## 3. Install the required dependencies
+## 3. Install the Required Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -170,10 +203,13 @@ Open the desired project notebook and run all cells sequentially.
 * Data Visualization
 * Statistical Analysis
 * Machine Learning
+* Linear Regression
+* Ridge Regression
 * Natural Language Processing (NLP)
 * Sentiment Analysis
 * Feature Engineering
 * Model Evaluation
+* Predictive Analytics
 * Interactive Visualization using Plotly
 
 ---
